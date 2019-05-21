@@ -1,0 +1,12 @@
+{
+  "name": "@dword-design/vue-focus-on-mouseup",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^0.3.2"
+  }
+}
