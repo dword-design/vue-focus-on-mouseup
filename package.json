@@ -1,12 +1,38 @@
 {
   "name": "@dword-design/vue-focus-on-mouseup",
-  "version": "0.1.0",
-  "main": "dist/index.js",
-  "license": "MIT",
-  "scripts": {
-    "prepare": "babel src --out-dir dist"
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/dword-design/vue-focus-on-mouseup/issues"
   },
+  "repository": "dword-design/vue-focus-on-mouseup",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "base build",
+    "start": "base start",
+    "test": "base test"
+  },
+  "dependencies": {},
   "devDependencies": {
-    "@dword-design/base": "^0.3.2"
-  }
+    "@dword-design/base": "^3.8.2",
+    "@dword-design/base-config-vue": "^2.0.1",
+    "@dword-design/base-config-vue-app": "^1.0.0",
+    "@dword-design/functions": "^2.2.4",
+    "child-process-promise": "^2.2.1",
+    "expect": "^24.9.0",
+    "express": "^4.17.1",
+    "get-package-name": "^1.1.0",
+    "output-files": "^1.1.10",
+    "portfinder": "^1.0.25",
+    "puppeteer": "^2.0.0",
+    "sort-package-json": "^1.31.0",
+    "vue": "^2.6.11",
+    "with-local-tmp-dir": "^2.2.4"
+  },
+  "contributors": [],
+  "maintainers": []
 }

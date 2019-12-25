@@ -1,7 +1,7 @@
 export default {
   bind: el => {
     el.addEventListener('mousedown', event => {
-      if (el != document.activeElement) {
+      if (el !== document.activeElement) {
         event.preventDefault()
       }
     })

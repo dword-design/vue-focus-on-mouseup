@@ -1,10 +1,8 @@
 .DS_Store
-node_modules
-dist
-/.vscode
 /.editorconfig
-/.eslintignore
-/.eslintrc.js
-/.huskyrc.js
-/babel.config.js
-/lint-staged.config.js
+/.eslintrc.json
+/.nyc_output
+/.vscode
+/coverage
+/dist
+/node_modules
