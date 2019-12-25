@@ -26,10 +26,9 @@ export default () => withLocalTmpDir(__dirname, async () => {
       import Vue from '${getPackageName(require.resolve('vue'))}'
       import focusOnMouseup from '@dword-design/vue-focus-on-mouseup'
 
-      Vue.directive('focus-on-mouseup', focusOnMouseup)
-
       new Vue({
         el: '#app',
+        directives: { focusOnMouseup },
         render: () => <button v-focus-on-mouseup>Hello world</button>,
       })
     `,
