@@ -18,7 +18,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@dword-design/base": "^3.8.2",
+    "@dword-design/base": "^4.0.0",
     "@dword-design/base-config-vue": "^2.0.1",
     "@dword-design/base-config-vue-app": "^1.0.0",
     "@dword-design/functions": "^2.2.4",
