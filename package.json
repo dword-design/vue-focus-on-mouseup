@@ -1,9 +1,7 @@
 {
   "name": "@dword-design/vue-focus-on-mouseup",
   "version": "1.0.0",
-  "bugs": {
-    "url": "https://github.com/dword-design/vue-focus-on-mouseup/issues"
-  },
+  "description": "",
   "repository": "dword-design/vue-focus-on-mouseup",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
@@ -29,10 +27,8 @@
     "output-files": "^1.1.10",
     "portfinder": "^1.0.25",
     "puppeteer": "^2.0.0",
-    "sort-package-json": "^1.31.0",
     "vue": "^2.6.11",
     "with-local-tmp-dir": "^2.2.4"
   },
-  "contributors": [],
-  "maintainers": []
+  "baseConfig": "vue"
 }
