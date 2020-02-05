@@ -35,14 +35,14 @@ export default () => withLocalTmpDir(__dirname, async () => {
     `,
   })
 
-  await spawn('base', ['build'])
+  await spawn('base', ['prepublishOnly'], { stdio: 'inherit' })
 
   const port = await portfinder.getPortPromise()
   const app = express().use(express.static(P.resolve('dist'))).listen(port)
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
   await page.goto(`http://localhost:${port}`)
-  const { x, y } = await page.evaluate(async () => {
+  const { x, y } = await page.evaluate(() => {
     const button = document.querySelector('button')
     const { x, y, width, height } = button.getBoundingClientRect()
     return { x: x + width / 2, y: y + height / 2 }
