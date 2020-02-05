@@ -21,7 +21,7 @@
     "@dword-design/base-config-vue-app": "^1.0.0",
     "@dword-design/functions": "^2.2.4",
     "child-process-promise": "^2.2.1",
-    "expect": "^24.9.0",
+    "expect": "^25.0.0",
     "express": "^4.17.1",
     "get-package-name": "^1.1.0",
     "output-files": "^1.1.10",
