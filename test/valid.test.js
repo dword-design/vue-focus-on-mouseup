@@ -7,7 +7,6 @@ import puppeteer from 'puppeteer'
 import P from 'path'
 import express from 'express'
 import portfinder from 'portfinder'
-import expect from 'expect'
 
 export default () => withLocalTmpDir(__dirname, async () => {
   await outputFiles({
