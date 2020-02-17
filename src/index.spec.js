@@ -3,8 +3,9 @@ import outputFiles from 'output-files'
 import execa from 'execa'
 import { endent } from '@dword-design/functions'
 import getPackageName from 'get-package-name'
-import puppeteer from 'puppeteer'
+import puppeteer from '@dword-design/puppeteer'
 import kill from 'tree-kill'
+import portReady from 'port-ready'
 
 export default {
   valid: () => withLocalTmpDir(async () => {
@@ -12,6 +13,9 @@ export default {
       'package.json': endent`
         {
           "baseConfig": "nuxt",
+          "dependencies": {
+            "@dword-design/vue-focus-on-mouseup": "^1.0.0"
+          },
           "devDependencies": {
             "${getPackageName(require.resolve('@dword-design/base-config-nuxt'))}": "^1.0.0"
           }
@@ -27,12 +31,13 @@ export default {
         }
       `,
     })
-
-    await execa('base', ['prepublishOnly'])
-    const childProcess = execa('base', ['start'])
+    await execa.command('base prepare')
+    await execa.command('base prepublishOnly')
+    const childProcess = execa.command('base start', { stdio: 'inherit' })
+    await portReady(3000)
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
-    await page.goto(`http://localhost:3000`)
+    await page.goto('http://localhost:3000')
     const { x, y } = await page.evaluate(() => {
       const button = document.querySelector('button')
       const { x, y, width, height } = button.getBoundingClientRect()

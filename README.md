@@ -1,31 +1,32 @@
 <!-- TITLE/ -->
 # @dword-design/vue-focus-on-mouseup
-<!-- /TITLE --><!-- BADGES/ -->
+<!-- /TITLE -->
 
-<span class="badge-npmversion"><a href="https://npmjs.org/package/@dword-design/vue-focus-on-mouseup" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@dword-design/vue-focus-on-mouseup.svg" alt="NPM version" /></a></span>
-<span class="badge-travisci"><a href="http://travis-ci.org/dword-design/vue-focus-on-mouseup" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/dword-design/vue-focus-on-mouseup/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-coveralls"><a href="https://coveralls.io/r/dword-design/vue-focus-on-mouseup" title="View this project's coverage on Coveralls"><img src="https://img.shields.io/coveralls/dword-design/vue-focus-on-mouseup.svg" alt="Coveralls Coverage Status" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/dword-design/vue-focus-on-mouseup" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/dword-design/vue-focus-on-mouseup.svg" alt="Dependency Status" /></a></span>
-<span class="badge-shields"><a href="https://img.shields.io/badge/renovate-enabled-brightgreen.svg"><img src="https://img.shields.io/badge/renovate-enabled-brightgreen.svg" /></a></span>
+<!-- BADGES/ -->
+[![NPM version](https://img.shields.io/npm/v/@dword-design/vue-focus-on-mouseup.svg)](https://npmjs.org/package/@dword-design/vue-focus-on-mouseup)
+[![Build status](https://img.shields.io/github/workflow/status/dword-design/vue-focus-on-mouseup/build)](https://github.com/dword-design/vue-focus-on-mouseup/actions)
+[![Coverage status](https://img.shields.io/coveralls/dword-design/vue-focus-on-mouseup)](https://coveralls.io/github/dword-design/vue-focus-on-mouseup?branch=master)
+[![Dependency status](https://img.shields.io/david/dword-design/vue-focus-on-mouseup)](https://david-dm.org/dword-design/vue-focus-on-mouseup)
+![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dword-design/vue-focus-on-mouseup)
 <!-- /BADGES -->
-
 
 <!-- DESCRIPTION/ -->
 
-<!-- /DESCRIPTION --><!-- INSTALL/ -->
+<!-- /DESCRIPTION -->
 
-<h2>Install</h2>
+<!-- INSTALL/ -->
+# Install
 
-<a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
-<ul>
-<li>Install: <code>npm install --save @dword-design/vue-focus-on-mouseup</code></li>
-<li>Import: <code>import * as pkg from ('@dword-design/vue-focus-on-mouseup')</code></li>
-<li>Require: <code>const pkg = require('@dword-design/vue-focus-on-mouseup')</code></li>
-</ul>
+```bash
+# NPM
+$ npm install @dword-design/vue-focus-on-mouseup
 
+# Yarn
+$ yarn add @dword-design/vue-focus-on-mouseup
+```
 <!-- /INSTALL -->
-
 
 <!-- LICENSE/ -->
 # License
