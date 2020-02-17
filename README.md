@@ -1,11 +1,6 @@
 <!-- TITLE/ -->
-
-<h1>@dword-design/vue-focus-on-mouseup</h1>
-
-<!-- /TITLE -->
-
-
-<!-- BADGES/ -->
+# @dword-design/vue-focus-on-mouseup
+<!-- /TITLE --><!-- BADGES/ -->
 
 <span class="badge-npmversion"><a href="https://npmjs.org/package/@dword-design/vue-focus-on-mouseup" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@dword-design/vue-focus-on-mouseup.svg" alt="NPM version" /></a></span>
 <span class="badge-travisci"><a href="http://travis-ci.org/dword-design/vue-focus-on-mouseup" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/dword-design/vue-focus-on-mouseup/master.svg" alt="Travis CI Build Status" /></a></span>
@@ -18,12 +13,7 @@
 
 <!-- DESCRIPTION/ -->
 
-
-
-<!-- /DESCRIPTION -->
-
-
-<!-- INSTALL/ -->
+<!-- /DESCRIPTION --><!-- INSTALL/ -->
 
 <h2>Install</h2>
 
@@ -38,15 +28,13 @@
 
 
 <!-- LICENSE/ -->
-
-<h2>License</h2>
+# License
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; Sebastian Landwehr</li></ul>
+Copyright &copy; Sebastian Landwehr <info@dword-design.de>
 
 and licensed under:
 
-<ul><li><a href="http://spdx.org/licenses/MIT.html">MIT License</a></li></ul>
-
+[MIT License](https://opensource.org/licenses/MIT)
 <!-- /LICENSE -->

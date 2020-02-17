@@ -916,7 +916,7 @@
     ajv-cli "^3.0.0"
     commitizen "^4.0.3"
     cz-conventional-changelog "^3.1.0"
-    depcheck "github:dword-design/depcheck#fork"
+    depcheck dword-design/depcheck#fork
     execa "^4.0.0"
     expect "^25.1.0"
     fs-extra "^8.1.0"
@@ -936,7 +936,7 @@
     pre-commit "^1.2.2"
     resolve-from "^5.0.0"
     safe-readfile "^1.0.2"
-    safe-require "github:dword-design/node-safe-require#fork"
+    safe-require dword-design/node-safe-require#fork
     semantic-release "^17.0.3"
     sort-package-json "^1.39.1"
     spdx-expression-parse "^3.0.0"
@@ -8308,7 +8308,6 @@ linaria@dword-design/linaria#fork:
     "@babel/plugin-transform-modules-commonjs" "^7.2.0"
     "@babel/register" "^7.0.0"
     "@emotion/is-prop-valid" "^0.7.3"
-    core-js "^3.6.3"
     cosmiconfig "^5.1.0"
     dedent "^0.7.0"
     enhanced-resolve "^4.1.0"
@@ -9583,7 +9582,6 @@ npm@^6.10.3:
     cmd-shim "^3.0.3"
     columnify "~1.5.4"
     config-chain "^1.1.12"
-    debuglog "*"
     detect-indent "~5.0.0"
     detect-newline "^2.1.0"
     dezalgo "~1.0.3"
@@ -9598,7 +9596,6 @@ npm@^6.10.3:
     has-unicode "~2.0.1"
     hosted-git-info "^2.8.5"
     iferr "^1.0.2"
-    imurmurhash "*"
     infer-owner "^1.0.4"
     inflight "~1.0.6"
     inherits "^2.0.4"
@@ -9617,14 +9614,8 @@ npm@^6.10.3:
     libnpx "^10.2.2"
     lock-verify "^2.1.0"
     lockfile "^1.0.4"
-    lodash._baseindexof "*"
     lodash._baseuniq "~4.6.0"
-    lodash._bindcallback "*"
-    lodash._cacheindexof "*"
-    lodash._createcache "*"
-    lodash._getnative "*"
     lodash.clonedeep "~4.5.0"
-    lodash.restparam "*"
     lodash.union "~4.6.0"
     lodash.uniq "~4.5.0"
     lodash.without "~4.4.0"
@@ -11632,14 +11623,8 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-safe-require@^1.0.3:
+safe-require@^1.0.3, "safe-require@github:dword-design/node-safe-require#fork":
   version "1.0.3"
-  resolved "https://registry.yarnpkg.com/safe-require/-/safe-require-1.0.3.tgz#6ec319ed10209b1d12c7a1449b79d46d7f4f914b"
-  integrity sha1-bsMZ7RAgmx0Sx6FEm3nUbX9PkUs=
-
-"safe-require@github:dword-design/node-safe-require#fork":
-  version "1.0.3"
-  uid "53682cf7aa25d784c6278f8ccbc9986ad0dd5f38"
   resolved "https://codeload.github.com/dword-design/node-safe-require/tar.gz/53682cf7aa25d784c6278f8ccbc9986ad0dd5f38"
 
 "safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
