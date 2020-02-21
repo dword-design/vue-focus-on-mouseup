@@ -4,7 +4,7 @@ import execa from 'execa'
 import { endent } from '@dword-design/functions'
 import getPackageName from 'get-package-name'
 import puppeteer from '@dword-design/puppeteer'
-import kill from 'tree-kill'
+import kill from 'tree-kill-promise'
 import portReady from 'port-ready'
 
 export default {
@@ -53,6 +53,6 @@ export default {
     await page.mouse.up()
     expect(await hasFocus()).toBeTruthy()
     await browser.close()
-    kill(childProcess.pid)
+    await kill(childProcess.pid)
   }),
 }
