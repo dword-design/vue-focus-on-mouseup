@@ -33,7 +33,7 @@ export default {
     })
     await execa.command('base prepare')
     await execa.command('base prepublishOnly')
-    const childProcess = execa.command('base start', { stdio: 'inherit' })
+    const childProcess = execa.command('base start')
     await portReady(3000)
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
