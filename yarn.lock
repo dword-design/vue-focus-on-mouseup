@@ -949,9 +949,9 @@
     sass-loader "^8.0.0"
 
 "@dword-design/base@^6.0.0":
-  version "6.0.8"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-6.0.8.tgz#619b55242ff06d062b137a3702c86a38beeb3e45"
-  integrity sha512-kuSG1DQ1G6inwhzDdAzLyyct/CJpNlumZwa/7nKfabBJO78WaN52gIq2Lsv+9/pQr1qziXgXpfxzQtokbkSuFA==
+  version "6.0.9"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-6.0.9.tgz#fea3ab0bb773f42005205550460744b86df7a276"
+  integrity sha512-sZJnG866bvpUh8hcKtAQhq9nBXmGBAkmwywPPG3NO7UJp24YSX5iaiM4tGqP7oABkFyemxxC4ufzFuuVha8Kyw==
   dependencies:
     "@babel/core" "^7.6.4"
     "@babel/register" "^7.6.2"
@@ -1097,12 +1097,12 @@
     fs-extra "^8.1.0"
 
 "@dword-design/mocha-objects@^1.0.0":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@dword-design/mocha-objects/-/mocha-objects-1.1.2.tgz#97ffda0117fdcb8b1d3261a6a8526b04f0fd0115"
-  integrity sha512-orTlYav3da23vHTuIsn/aOEJPaQEeD1ZolThSDv1IS5Uj4+7ls3SFvD/NCWBUD2XqnTLxZvjj9Rtrmn/qBU3Qg==
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@dword-design/mocha-objects/-/mocha-objects-1.1.3.tgz#6f56c84e664e21351addb5be4ba59e2213b918f7"
+  integrity sha512-dnQme5X4Nwxrao1caMT0arr5Vtw3qHJU9a3pEhaYsLODjV4bC480Q0IP5w/d3po0n/8Jiq8lmuvaAnORfuFMUg==
   dependencies:
     "@dword-design/functions" "^2.7.2"
-    child-process-promise "^2.2.1"
+    execa "^4.0.0"
     glob "^7.1.6"
     mocha "^7.0.1"
 
@@ -1158,9 +1158,9 @@
     require-package-name "^2.0.1"
 
 "@dword-design/vue-component@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@dword-design/vue-component/-/vue-component-1.0.3.tgz#76ad9f0083a9520dc3f9dee12b4088549dcb14ca"
-  integrity sha512-+cpJIhUfw52JKRWBnlzzkk8v2dtEUuz48iDx9qL25kEXbd7w3KPSu+r3CREhgfHcvb2CZx8YccJSTAhHJM2C+g==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@dword-design/vue-component/-/vue-component-1.0.4.tgz#88492a4a850e2e7df6d5978a15092c2d6cc2c6b4"
+  integrity sha512-1yUMvTSZDaPHOaWq+zWc+4cSWaGJl/78SReJBjs18OWLUhPdCJ2FIFS28nTfH25o0rZCMmV/5lA7zRKrCMTh5Q==
   dependencies:
     "@dword-design/functions" "^2.2.4"
     switch-fn "^1.0.2"
@@ -1905,9 +1905,9 @@
   integrity sha512-ywoxP68aOT3zHCLgWZgwUJatiENeHE7xJzYjfz8WI0goynp96wETBF+d95b8g/uL4QmS6owPVlaxiz3wyMAzcw==
 
 "@octokit/plugin-rest-endpoint-methods@^3.0.0":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-3.1.1.tgz#6cf4d939cca7af4a05d1861385d20ce86a112dc8"
-  integrity sha512-mQT+6FL4dqOaUpzLbi6HW38DkLuOf4b303ryvMsciMbAMLLJr6iWsShWjCUFUsc9NXz49sZNuOMGTNym94Krag==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-3.2.0.tgz#ecc4bc594a57ebfb418b8c4a8c0f200455759004"
+  integrity sha512-k+RLsegQn4s0wvAFYuk3R18FVKRg3ktvzIGW6MkmrSiSXBwYfaEsv4CuPysyef0DL+74DRj/X9MLJYlbleUO+Q==
   dependencies:
     "@octokit/types" "^2.0.1"
     deprecation "^2.3.1"
@@ -1946,9 +1946,9 @@
     "@octokit/plugin-rest-endpoint-methods" "^3.0.0"
 
 "@octokit/types@^2.0.0", "@octokit/types@^2.0.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-2.1.1.tgz#77e80d1b663c5f1f829e5377b728fa3c4fe5a97d"
-  integrity sha512-89LOYH+d/vsbDX785NOfLxTW88GjNd0lWRz1DVPVsZgg9Yett5O+3MOvwo7iHgvUwbFz0mf/yPIjBkUbs4kxoQ==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-2.2.0.tgz#ddb0a90cf3e9624ae97e09d16f21f4c4a682d3be"
+  integrity sha512-iEeW3XlkxeM/CObeoYvbUv24Oe+DldGofY+3QyeJ5XKKA6B+V94ePk14EDCarseWdMs6afKZPv3dFq8C+SY5lw==
   dependencies:
     "@types/node" ">= 8"
 
@@ -5653,9 +5653,9 @@ ejs@^2.6.1:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.3.349:
-  version "1.3.356"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.356.tgz#fb985ee0f3023e6e11b97547ff3f738bdd8643d2"
-  integrity sha512-qW4YHMfOFjvx0jkSK2vjaHoLjk1+uJIV5tqtLDo7P5y3/kM8KQP23YBU0Y5fCSW4jIbDvEzeHDaY4+4vEaqqOw==
+  version "1.3.358"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.358.tgz#1964cab37f57d49a5a421a4de4dba3c6baf14608"
+  integrity sha512-y9xvv+9PplXSUkOSxgtOfwNrqD/948VIScyWURnY27PXprg3PmRl7e8ekRJhnksDNjxLVyBYY6I2nQmNBzdi6g==
 
 elliptic@^6.0.0:
   version "6.5.2"
@@ -6295,9 +6295,9 @@ fast-glob@^2.2.6:
     micromatch "^3.1.10"
 
 fast-glob@^3.0.3, fast-glob@^3.1.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.1.tgz#c5aaea632f92543b744bdcb19f11efd49e56c7b3"
-  integrity sha512-XObtOQLTl4EptWcBbO9O6wd17VlVf9YXYY/zuzuu7nZfTsv4BL3KupMAMUVzH88CUwWkI3uNHBfxtfU8PveVTQ==
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.2.tgz#ade1a9d91148965d4bf7c51f72e1ca662d32e63d"
+  integrity sha512-UDV82o4uQyljznxwMxyVRJgZZt3O5wENYojjzbaGEGZgeOxkLFf+V4cnUD+krzb2F72E18RhamkMZ7AdeggF7A==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
@@ -9976,9 +9976,9 @@ node-preload@^0.2.0:
     process-on-spawn "^1.0.0"
 
 node-releases@^1.1.49:
-  version "1.1.49"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.49.tgz#67ba5a3fac2319262675ef864ed56798bb33b93e"
-  integrity sha512-xH8t0LS0disN0mtRCh+eByxFPie+msJUBL/lJDBuap53QGiYPa9joh83K4pCZgWJ+2L4b9h88vCVdXQ60NO2bg==
+  version "1.1.50"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.50.tgz#803c40d2c45db172d0410e4efec83aa8c6ad0592"
+  integrity sha512-lgAmPv9eYZ0bGwUYAKlr8MG6K4CvWliWqnkcT2P8mMAgVrH3lqfBPorFlxiG1pHQnqmavJZ9vbMXUTNyMLbrgQ==
   dependencies:
     semver "^6.3.0"
 
