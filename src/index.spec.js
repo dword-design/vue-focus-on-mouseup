@@ -1,58 +1,56 @@
 import withLocalTmpDir from 'with-local-tmp-dir'
-import outputFiles from 'output-files'
-import execa from 'execa'
+import { outputFile } from 'fs-extra'
 import { endent } from '@dword-design/functions'
-import getPackageName from 'get-package-name'
 import puppeteer from '@dword-design/puppeteer'
-import kill from 'tree-kill-promise'
-import portReady from 'port-ready'
+import { Nuxt, Builder } from 'nuxt'
 
 export default {
-  valid: () => withLocalTmpDir(async () => {
-    await outputFiles({
-      'package.json': endent`
-        {
-          "baseConfig": "nuxt",
-          "dependencies": {
-            "@dword-design/vue-focus-on-mouseup": "^1.0.0"
-          },
-          "devDependencies": {
-            "${getPackageName(require.resolve('@dword-design/base-config-nuxt'))}": "^1.0.0"
+  valid: () =>
+    withLocalTmpDir(async () => {
+      await outputFile(
+        'pages/index.vue',
+        endent`
+          <template>
+            <button v-focus-on-mouseup>Hello world</button>
+          </template>
+          
+          <script>
+          import focusOnMouseup from '../../src'
+
+          export default {
+            directives: { focusOnMouseup },
           }
+          </script>
+
+        `
+      )
+      const nuxt = new Nuxt({ dev: false })
+      await new Builder(nuxt).build()
+      await nuxt.listen()
+      const browser = await puppeteer.launch()
+      const page = await browser.newPage()
+      await page.goto('http://localhost:3000')
+      const buttonCoords = await page.evaluate(() => {
+        const button = document.querySelector('button')
+        const bounds = button.getBoundingClientRect()
+        return {
+          x: bounds.x + bounds.width / 2,
+          y: bounds.y + bounds.height / 2,
         }
+      })
+      await page.mouse.move(buttonCoords.x, buttonCoords.y)
 
-      `,
-      'src/pages/index.js': endent`
-        import focusOnMouseup from '@dword-design/vue-focus-on-mouseup'
+      const hasFocus = () =>
+        page.evaluate(
+          () => document.activeElement === document.querySelector('button')
+        )
 
-        export default {
-          directives: { focusOnMouseup },
-          render: () => <button v-focus-on-mouseup>Hello world</button>,
-        }
-      `,
-    })
-    await execa.command('base prepare')
-    await execa.command('base prepublishOnly')
-    const childProcess = execa.command('base start')
-    await portReady(3000)
-    const browser = await puppeteer.launch()
-    const page = await browser.newPage()
-    await page.goto('http://localhost:3000')
-    const { x, y } = await page.evaluate(() => {
-      const button = document.querySelector('button')
-      const { x, y, width, height } = button.getBoundingClientRect()
-      return { x: x + width / 2, y: y + height / 2 }
-    })
-    await page.mouse.move(x, y)
-
-    const hasFocus = () => page.evaluate(() => document.activeElement === document.querySelector('button'))
-
-    expect(await hasFocus()).toBeFalsy()
-    await page.mouse.down()
-    expect(await hasFocus()).toBeFalsy()
-    await page.mouse.up()
-    expect(await hasFocus()).toBeTruthy()
-    await browser.close()
-    await kill(childProcess.pid)
-  }),
+      expect(await hasFocus()).toBeFalsy()
+      await page.mouse.down()
+      expect(await hasFocus()).toBeFalsy()
+      await page.mouse.up()
+      expect(await hasFocus()).toBeTruthy()
+      await browser.close()
+      await nuxt.close()
+    }),
 }
