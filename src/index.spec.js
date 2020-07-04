@@ -1,8 +1,8 @@
-import withLocalTmpDir from 'with-local-tmp-dir'
-import { outputFile } from 'fs-extra'
 import { endent } from '@dword-design/functions'
 import puppeteer from '@dword-design/puppeteer'
-import { Nuxt, Builder } from 'nuxt'
+import { outputFile } from 'fs-extra'
+import { Builder, Nuxt } from 'nuxt'
+import withLocalTmpDir from 'with-local-tmp-dir'
 
 export default {
   valid: () =>
@@ -39,12 +39,10 @@ export default {
         }
       })
       await page.mouse.move(buttonCoords.x, buttonCoords.y)
-
       const hasFocus = () =>
         page.evaluate(
           () => document.activeElement === document.querySelector('button')
         )
-
       expect(await hasFocus()).toBeFalsy()
       await page.mouse.down()
       expect(await hasFocus()).toBeFalsy()
