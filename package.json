@@ -5,13 +5,16 @@
   "repository": "dword-design/vue-focus-on-mouseup",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
-  "main": "dist/index.js",
+  "main": "dist/index.ssr.js",
+  "unpkg": "dist/index.min.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.esm.js",
   "files": [
     "dist"
   ],
   "scripts": {
+    "clean": "base clean",
     "commit": "base commit",
-    "dev": "base dev",
     "lint": "base lint",
     "prepare": "base prepare",
     "prepublishOnly": "base prepublishOnly",
@@ -20,7 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "@dword-design/base": "^6.0.0",
-    "@dword-design/base-config-component-library": "^1.0.0",
+    "@dword-design/base-config-directive": "^1.0.0",
     "@dword-design/functions": "^2.2.4",
     "@dword-design/puppeteer": "^1.0.0",
     "fs-extra": "^9.0.0",
@@ -30,5 +33,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "baseConfig": "@dword-design/component-library"
+  "baseConfig": "@dword-design/directive"
 }
