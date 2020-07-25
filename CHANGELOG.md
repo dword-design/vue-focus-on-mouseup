@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/dword-design/vue-focus-on-mouseup/compare/v1.0.7...v1.0.8) (2020-07-25)
+
+
+### Bug Fixes
+
+* use base-config-directive ([ac00253](https://github.com/dword-design/vue-focus-on-mouseup/commit/ac0025346afa72fbc4517bdd31b6074059141bfb))
+
 ## [1.0.7](https://github.com/dword-design/vue-focus-on-mouseup/compare/v1.0.6...v1.0.7) (2020-07-25)
 
 
