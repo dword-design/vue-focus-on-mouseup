@@ -24,7 +24,7 @@ export default {
 
         `
       )
-      const nuxt = new Nuxt({ dev: false })
+      const nuxt = new Nuxt({ createRequire: 'native', dev: false })
       await new Builder(nuxt).build()
       await nuxt.listen()
       const browser = await puppeteer.launch()
