@@ -12,14 +12,19 @@ export default {
   valid: () =>
     withLocalTmpDir(async () => {
       await outputFile(
-        'pages/index.js',
+        'pages/index.vue',
         endent`
+          <template>
+            <button v-focus-on-mouseup>Hello world</button>
+          </template>
+          
+          <script>
           import focusOnMouseup from '../../src'
 
           export default {
             directives: { focusOnMouseup },
-            render: h => <button v-focus-on-mouseup>Hello world</button>,
           }
+          </script>
 
         `
       )
