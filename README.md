@@ -64,7 +64,7 @@ $ yarn add @dword-design/vue-focus-on-mouseup
 <!-- LICENSE/ -->
 ## Contribute
 
-Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/vue-focus-on-mouseup/issues) or [pull request](https://github.com/dword-design/vue-focus-on-mouseup/pulls)! ⚙️
+Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/vue-focus-on-mouseup/issues) or a [pull request](https://github.com/dword-design/vue-focus-on-mouseup/pulls)! ⚙️
 
 ## Support
 
