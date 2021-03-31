@@ -28,22 +28,29 @@ export default {
 
         `
       )
+
       const nuxt = new Nuxt({ createRequire: 'native', dev: true })
       await new Builder(nuxt).build()
       await nuxt.listen()
+
       const browser = await puppeteer.launch()
+
       const page = await browser.newPage()
       await page.coverage.startJSCoverage()
       await page.goto('http://localhost:3000')
+
       const buttonCoords = await page.evaluate(() => {
         const button = document.querySelector('button')
+
         const bounds = button.getBoundingClientRect()
+
         return {
           x: bounds.x + bounds.width / 2,
           y: bounds.y + bounds.height / 2,
         }
       })
       await page.mouse.move(buttonCoords.x, buttonCoords.y)
+
       const hasFocus = () =>
         page.evaluate(
           () => document.activeElement === document.querySelector('button')
@@ -53,6 +60,7 @@ export default {
       expect(await hasFocus()).toBeFalsy()
       await page.mouse.up()
       expect(await hasFocus()).toBeTruthy()
+
       const coverage = await page.coverage.stopJSCoverage()
       puppeteerToIstanbul.write(coverage, { storagePath })
       await browser.close()
