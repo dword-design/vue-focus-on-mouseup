@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/dword-design/vue-focus-on-mouseup/compare/v1.0.16...v1.0.17) (2021-04-12)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#23](https://github.com/dword-design/vue-focus-on-mouseup/issues/23)) ([8d42227](https://github.com/dword-design/vue-focus-on-mouseup/commit/8d42227123442d55dfcde6b7f1b4fbb6440cf172))
+
 ## [1.0.16](https://github.com/dword-design/vue-focus-on-mouseup/compare/v1.0.15...v1.0.16) (2021-03-31)
 
 
