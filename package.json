@@ -30,7 +30,7 @@
     "fs-extra": "^9.0.0",
     "nuxt": "^2.12.2",
     "puppeteer-to-istanbul": "dword-design/puppeteer-to-istanbul#fork",
-    "with-local-tmp-dir": "^2.2.4"
+    "with-local-tmp-dir": "^2.2.18"
   },
   "publishConfig": {
     "access": "public"
