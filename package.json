@@ -1,7 +1,7 @@
 {
   "name": "@dword-design/vue-focus-on-mouseup",
   "version": "1.0.17",
-  "description": "",
+  "description": null,
   "repository": "dword-design/vue-focus-on-mouseup",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
@@ -35,5 +35,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "baseConfig": "@dword-design/directive"
+  "baseConfig": "@dword-design/directive",
+  "homepage": null,
+  "keywords": []
 }
