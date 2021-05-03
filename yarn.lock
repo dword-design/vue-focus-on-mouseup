@@ -1157,9 +1157,9 @@
     param-case "^3.0.3"
 
 "@dword-design/base-config-directive@^1.0.0":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@dword-design/base-config-directive/-/base-config-directive-1.0.17.tgz#0f1f74acc9d9acee1b34e527de7ded07816d4c10"
-  integrity sha512-VhL/jdUwjlnjoAaDxku2fWXUXBQF7dDf7iEbsKDsatP2CLjTfZYxgIrJ/DsfW4sCmqtjlu9tE89VWavpE1pdyg==
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@dword-design/base-config-directive/-/base-config-directive-1.0.18.tgz#4dfba1c5c369ebe5970fbc74e5302ba813044995"
+  integrity sha512-hRoLBWyZ81mXcVc0hj5PVegvuIWQ6CLDULenwiZECvUwa2lP6v+QkLDfqPwqsr+jQBGBZJU0NW12Yey02S7tyA==
   dependencies:
     "@dword-design/functions" "^3.0.0"
     "@dword-design/rollup-config-component" "^1.0.0"
