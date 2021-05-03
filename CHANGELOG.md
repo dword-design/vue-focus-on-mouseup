@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/vue-focus-on-mouseup/compare/v1.0.22...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#37](https://github.com/dword-design/vue-focus-on-mouseup/issues/37)) ([f0f1876](https://github.com/dword-design/vue-focus-on-mouseup/commit/f0f18765d412fb92854f0e274f97b6df86cb04db))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.22](https://github.com/dword-design/vue-focus-on-mouseup/compare/v1.0.21...v1.0.22) (2021-04-28)
 
 
