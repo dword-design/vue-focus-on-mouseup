@@ -1189,10 +1189,10 @@
     micromatch "^4.0.2"
     std-env "^2.3.0"
 
-"@dword-design/base@^7.0.0":
-  version "7.14.4"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-7.14.4.tgz#1141b4c4ccca6f53a51e2aea5c12e06e88468bd8"
-  integrity sha512-GUDCfpYxgXflFo9klVWDDH2GG8/GGZWbWptBwuaaozJNpXckAmLgpS/wJDcYjkaLjPC7m00e3uT7krZPwGEBrA==
+"@dword-design/base@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-8.0.0.tgz#77f225ec73e66e09ced980fae143ccbad9949ae3"
+  integrity sha512-HtkOiT+ec50jNt1GjPg1oqaATC9RU98YfHXRJPAXarUtN7r/VK2abnJZl+rLy+2LjnGDQkkHqwn4+Spt6SQCZg==
   dependencies:
     "@babel/core" "^7.6.4"
     "@babel/register" "^7.6.2"
@@ -1209,7 +1209,7 @@
     commitizen "^4.0.3"
     constant-case "^3.0.3"
     cz-conventional-changelog "^3.1.0"
-    depcheck dword-design/depcheck#fork
+    depcheck "github:dword-design/depcheck#fork"
     depcheck-detector-execa "^1.2.1"
     depcheck-detector-package-name "^1.0.0"
     depcheck-package-name "^1.0.0"
@@ -4850,8 +4850,9 @@ depcheck-parser-babel@^1.2.0:
     "@babel/core" "^7.7.7"
     fs-extra "^9.0.0"
 
-depcheck@dword-design/depcheck#fork:
+"depcheck@github:dword-design/depcheck#fork":
   version "0.0.1"
+  uid "8a9eb41006c2c6f9cbd79e4e68bf265e1c1df1dc"
   resolved "https://codeload.github.com/dword-design/depcheck/tar.gz/8a9eb41006c2c6f9cbd79e4e68bf265e1c1df1dc"
   dependencies:
     "@babel/parser" "^7.8.4"
@@ -11774,8 +11775,9 @@ rollup-plugin-terser@^7.0.0:
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
-"rollup-plugin-vue@github:dword-design/rollup-plugin-vue#fork":
+rollup-plugin-vue@dword-design/rollup-plugin-vue#fork:
   version "5.1.9"
+  uid cd6e2f19d2be7e4363532e00119c904696c0af7c
   resolved "https://codeload.github.com/dword-design/rollup-plugin-vue/tar.gz/cd6e2f19d2be7e4363532e00119c904696c0af7c"
   dependencies:
     "@vue/component-compiler" dword-design/vue-component-compiler#fork
