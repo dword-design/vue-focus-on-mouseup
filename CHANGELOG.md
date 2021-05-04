@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/dword-design/vue-focus-on-mouseup/compare/v2.0.2...v2.0.3) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v10 ([#40](https://github.com/dword-design/vue-focus-on-mouseup/issues/40)) ([d8b2221](https://github.com/dword-design/vue-focus-on-mouseup/commit/d8b2221f54d259aa28712e82de0f8bd39a07a48a))
+
 ## [2.0.2](https://github.com/dword-design/vue-focus-on-mouseup/compare/v2.0.1...v2.0.2) (2021-05-04)
 
 
