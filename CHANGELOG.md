@@ -1,3 +1,11 @@
+## [2.0.2](https://github.com/dword-design/vue-focus-on-mouseup/compare/v2.0.1...v2.0.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v5 ([#39](https://github.com/dword-design/vue-focus-on-mouseup/issues/39)) ([8b78e95](https://github.com/dword-design/vue-focus-on-mouseup/commit/8b78e95548737420c82286fecb791cc042f142e1))
+* update dependency with-local-tmp-dir to v4 ([#41](https://github.com/dword-design/vue-focus-on-mouseup/issues/41)) ([5191f96](https://github.com/dword-design/vue-focus-on-mouseup/commit/5191f9662f0a3d4cfb38cb698e4f90bbcccb7873))
+
 ## [2.0.1](https://github.com/dword-design/vue-focus-on-mouseup/compare/v2.0.0...v2.0.1) (2021-05-04)
 
 
