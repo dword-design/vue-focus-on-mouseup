@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/dword-design/vue-focus-on-mouseup/compare/v2.0.4...v2.0.5) (2021-06-14)
+
+
+### Bug Fixes
+
+* update config files ([79ed300](https://github.com/dword-design/vue-focus-on-mouseup/commit/79ed3000ed2df13061479c73853f0ab182175ee4))
+
 ## [2.0.4](https://github.com/dword-design/vue-focus-on-mouseup/compare/v2.0.3...v2.0.4) (2021-05-31)
 
 
