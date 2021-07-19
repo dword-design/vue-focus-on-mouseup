@@ -1,12 +1,12 @@
 <!-- TITLE/ -->
-# @dword-design/vue-focus-on-mouseup
+# vue-focus-on-mouseup
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
   <p>
-    <a href="https://npmjs.org/package/@dword-design/vue-focus-on-mouseup">
+    <a href="https://npmjs.org/package/vue-focus-on-mouseup">
       <img
-        src="https://img.shields.io/npm/v/@dword-design/vue-focus-on-mouseup.svg"
+        src="https://img.shields.io/npm/v/vue-focus-on-mouseup.svg"
         alt="npm version"
       >
     </a><img src="https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue" alt="Linux macOS Windows compatible"><a href="https://github.com/dword-design/vue-focus-on-mouseup/actions">
@@ -53,17 +53,68 @@
 Vue directive that makes an element focus on mouse up event instead of mouse down. Useful for drag and drop.
 <!-- /DESCRIPTION -->
 
+Sometimes you do not want to focus an element when clicking the mouse but instead when releasing it. The most obvious use case is when dragging an element. You can drag it, but at the same time the focus animation happens, which looks awkward. Whis this directive, you can still focus the element, but with mouse up, it does not interfere with the drag and drop event. I've also seen a similar behavior in [Trello](https://trello.com).
+
 <!-- INSTALL/ -->
-## Install
+## Install via a package manager
 
 ```bash
 # npm
-$ npm install @dword-design/vue-focus-on-mouseup
+$ npm install vue-focus-on-mouseup
 
 # Yarn
-$ yarn add @dword-design/vue-focus-on-mouseup
+$ yarn add vue-focus-on-mouseup
+```
+
+Add to local directives:
+
+```js
+<script>
+import VueFocusOnMouseup from 'vue-focus-on-mouseup'
+
+export default {
+  directives: {
+    VueFocusOnMouseup,
+  },
+}
+</script>
+```
+
+Or register as a global directive:
+
+```js
+import Vue from 'vue'
+import VueFocusOnMouseup from 'vue-focus-on-mouseup'
+
+Vue.directive('VueFocusOnMouseup', VueFocusOnMouseup)
+```
+
+Or register as a plugin:
+
+```js
+import Vue from 'vue'
+import VueFocusOnMouseup from 'vue-focus-on-mouseup'
+
+Vue.use(VueFocusOnMouseup)
+```
+
+## Install via CDN
+
+```html
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue-focus-on-mouseup"></script>
 ```
 <!-- /INSTALL -->
+
+## Usage
+
+Just add the directive to the component you want to adjust, and then it should work out of the box.
+
+```html
+<template>
+  <button v-focus-on-mouseup>Hello world</button>
+</template>
+```
 
 <!-- LICENSE/ -->
 ## Contribute
