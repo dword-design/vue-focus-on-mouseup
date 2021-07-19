@@ -50,7 +50,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+Vue directive that makes an element focus on mouse up event instead of mouse down. Useful for drag and drop.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
