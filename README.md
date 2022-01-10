@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-<p>
+  <p>
     <a href="https://npmjs.org/package/vue-focus-on-mouseup">
       <img
         src="https://img.shields.io/npm/v/vue-focus-on-mouseup.svg"
