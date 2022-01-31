@@ -68,7 +68,7 @@ $ yarn add vue-focus-on-mouseup
 
 Add to local directives:
 
-```js
+```html
 <script>
 import VueFocusOnMouseup from 'vue-focus-on-mouseup'
 
