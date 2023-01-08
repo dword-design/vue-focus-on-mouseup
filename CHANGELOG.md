@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/vue-focus-on-mouseup/compare/v2.0.13...v3.0.0) (2023-01-08)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#96](https://github.com/dword-design/vue-focus-on-mouseup/issues/96)) ([8de2c13](https://github.com/dword-design/vue-focus-on-mouseup/commit/8de2c1318921b225363b80a9a644961bc87346fe))
+
+
+### BREAKING CHANGES
+
+* drop node 12 support, move to esm
+
 ## [2.0.13](https://github.com/dword-design/vue-focus-on-mouseup/compare/v2.0.12...v2.0.13) (2022-02-17)
 
 
