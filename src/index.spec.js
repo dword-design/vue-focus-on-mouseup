@@ -19,7 +19,7 @@ export default {
           </template>
           
           <script>
-          import focusOnMouseup from '../../src'
+          import focusOnMouseup from '../../src/index.js'
 
           export default {
             directives: { focusOnMouseup },
@@ -29,7 +29,7 @@ export default {
         `
       )
 
-      const nuxt = new Nuxt({ createRequire: 'native', dev: true })
+      const nuxt = new Nuxt({ dev: true })
       await new Builder(nuxt).build()
       await nuxt.listen()
 
