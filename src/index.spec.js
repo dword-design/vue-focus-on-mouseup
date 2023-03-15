@@ -17,7 +17,7 @@ export default {
           <template>
             <button v-focus-on-mouseup>Hello world</button>
           </template>
-          
+
           <script>
           import focusOnMouseup from '../../src/index.js'
 
@@ -26,7 +26,7 @@ export default {
           }
           </script>
 
-        `
+        `,
       )
 
       const nuxt = new Nuxt({ dev: true })
@@ -53,7 +53,7 @@ export default {
 
       const hasFocus = () =>
         page.evaluate(
-          () => document.activeElement === document.querySelector('button')
+          () => document.activeElement === document.querySelector('button'),
         )
       expect(await hasFocus()).toBeFalsy()
       await page.mouse.down()
