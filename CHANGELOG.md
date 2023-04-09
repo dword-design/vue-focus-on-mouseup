@@ -1,3 +1,10 @@
+## [3.0.7](https://github.com/dword-design/vue-focus-on-mouseup/compare/v3.0.6...v3.0.7) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4.1.7 ([cb10553](https://github.com/dword-design/vue-focus-on-mouseup/commit/cb105539e077c8a3f2677dadf069a65843cc54e6))
+
 ## [3.0.6](https://github.com/dword-design/vue-focus-on-mouseup/compare/v3.0.5...v3.0.6) (2023-04-07)
 
 
