@@ -1,3 +1,10 @@
+## [3.0.9](https://github.com/dword-design/vue-focus-on-mouseup/compare/v3.0.8...v3.0.9) (2023-04-14)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v6.0.6 ([1816b20](https://github.com/dword-design/vue-focus-on-mouseup/commit/1816b20e9ef63887953b63f44bad082c30a7e141))
+
 ## [3.0.8](https://github.com/dword-design/vue-focus-on-mouseup/compare/v3.0.7...v3.0.8) (2023-04-10)
 
 
