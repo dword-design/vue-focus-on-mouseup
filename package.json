@@ -1,6 +1,6 @@
 {
   "name": "vue-focus-on-mouseup",
-  "version": "3.0.9",
+  "version": "3.0.10",
   "description": "Vue directive that makes an element focus on mouse up event instead of mouse down. Useful for drag and drop.",
   "keywords": [
     "vuejs",
