@@ -14,10 +14,10 @@
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "type": "module",
-  "main": "dist/index.ssr.js",
+  "exports": "./dist/index.esm.js",
+  "main": "dist/index.esm.js",
   "unpkg": "dist/index.min.js",
-  "module": "dist/index.esm.js",
-  "browser": "dist/index.esm.js",
+  "browser": "dist/index.min.js",
   "files": [
     "dist"
   ],
@@ -33,7 +33,7 @@
   "dependencies": {},
   "devDependencies": {
     "@dword-design/base": "^9.2.3",
-    "@dword-design/base-config-directive": "^1.0.0",
+    "@dword-design/base-config-directive": "^3.0.0",
     "@dword-design/functions": "^4.0.0",
     "@dword-design/puppeteer": "^6.0.2",
     "fs-extra": "^10.0.0",
