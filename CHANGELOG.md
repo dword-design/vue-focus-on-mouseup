@@ -1,3 +1,10 @@
+## [3.0.17](https://github.com/dword-design/vue-focus-on-mouseup/compare/v3.0.16...v3.0.17) (2024-01-12)
+
+
+### Bug Fixes
+
+* update dependency nuxt to v2.17.3 ([81677b2](https://github.com/dword-design/vue-focus-on-mouseup/commit/81677b2f6877ae85ef1a892708dddaa69133a204))
+
 ## [3.0.16](https://github.com/dword-design/vue-focus-on-mouseup/compare/v3.0.15...v3.0.16) (2023-10-24)
 
 
