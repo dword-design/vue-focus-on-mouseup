@@ -1,3 +1,10 @@
+## [3.0.18](https://github.com/dword-design/vue-focus-on-mouseup/compare/v3.0.17...v3.0.18) (2024-12-09)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v5.1.1 ([#137](https://github.com/dword-design/vue-focus-on-mouseup/issues/137)) ([9a99ff5](https://github.com/dword-design/vue-focus-on-mouseup/commit/9a99ff5c4f895d02b2042cc1d4abdd141c0ea580))
+
 ## [3.0.17](https://github.com/dword-design/vue-focus-on-mouseup/compare/v3.0.16...v3.0.17) (2024-01-12)
 
 
