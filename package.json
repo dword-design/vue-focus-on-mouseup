@@ -37,7 +37,7 @@
     "@dword-design/functions": "^4.0.0",
     "@dword-design/puppeteer": "^6.0.2",
     "fs-extra": "^10.0.0",
-    "nuxt": "^2.12.2",
+    "nuxt": "^3.0.0",
     "puppeteer-to-istanbul": "dword-design/puppeteer-to-istanbul#fork",
     "with-local-tmp-dir": "^5.0.0"
   },
