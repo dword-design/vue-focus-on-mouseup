@@ -35,7 +35,7 @@
     "@dword-design/base": "^9.2.3",
     "@dword-design/base-config-directive": "^1.0.0",
     "@dword-design/functions": "^4.0.0",
-    "@dword-design/puppeteer": "^6.0.2",
+    "@dword-design/puppeteer": "^7.0.0",
     "fs-extra": "^10.0.0",
     "nuxt": "^2.12.2",
     "puppeteer-to-istanbul": "dword-design/puppeteer-to-istanbul#fork",
