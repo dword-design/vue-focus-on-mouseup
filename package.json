@@ -14,38 +14,51 @@
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "type": "module",
-  "main": "dist/index.ssr.js",
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./dist/index.esm.js",
+        "types": "./dist/entry.d.ts"
+      }
+    }
+  },
+  "main": "dist/index.esm.js",
   "unpkg": "dist/index.min.js",
-  "module": "dist/index.esm.js",
-  "browser": "dist/index.esm.js",
+  "browser": "dist/index.min.js",
   "files": [
     "dist"
   ],
   "scripts": {
+    "build": "base build",
     "checkUnknownFiles": "base checkUnknownFiles",
     "commit": "base commit",
     "depcheck": "base depcheck",
     "lint": "base lint",
     "prepare": "base prepare",
     "prepublishOnly": "base prepublishOnly",
-    "test": "base test"
+    "test": "base test",
+    "typecheck": "base typecheck",
+    "verify": "base verify"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@dword-design/base": "^9.2.3",
-    "@dword-design/base-config-directive": "^1.0.0",
-    "@dword-design/functions": "^4.0.0",
-    "@dword-design/puppeteer": "^6.0.2",
+    "@dword-design/base": "^16",
+    "@dword-design/base-config-directive": "^4.0.0",
+    "@playwright/browser-chromium": "^1.57.0",
+    "@playwright/test": "^1.57.0",
+    "@types/fs-extra": "^11.0.4",
+    "endent": "npm:@dword-design/endent@^1.4.7",
+    "execa": "^9.6.1",
     "fs-extra": "^10.0.0",
-    "nuxt": "^2.12.2",
-    "puppeteer-to-istanbul": "dword-design/puppeteer-to-istanbul#fork",
-    "with-local-tmp-dir": "^5.0.0"
+    "get-port": "^7.1.0",
+    "nuxt": "^4",
+    "nuxt-dev-ready": "^5.0.1",
+    "tree-kill-promise": "^4.0.0"
   },
+  "packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501",
   "engines": {
-    "node": ">=14"
+    "node": ">=22"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "baseConfig": "@dword-design/directive"
+  }
 }

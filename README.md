@@ -3,49 +3,49 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-  <p>
-    <a href="https://npmjs.org/package/vue-focus-on-mouseup">
-      <img
-        src="https://img.shields.io/npm/v/vue-focus-on-mouseup.svg"
-        alt="npm version"
-      >
-    </a><img src="https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue" alt="Linux macOS Windows compatible"><a href="https://github.com/dword-design/vue-focus-on-mouseup/actions">
-      <img
-        src="https://github.com/dword-design/vue-focus-on-mouseup/workflows/build/badge.svg"
-        alt="Build status"
-      >
-    </a><a href="https://codecov.io/gh/dword-design/vue-focus-on-mouseup">
-      <img
-        src="https://codecov.io/gh/dword-design/vue-focus-on-mouseup/branch/master/graph/badge.svg"
-        alt="Coverage status"
-      >
-    </a><a href="https://david-dm.org/dword-design/vue-focus-on-mouseup">
-      <img src="https://img.shields.io/david/dword-design/vue-focus-on-mouseup" alt="Dependency status">
-    </a><img src="https://img.shields.io/badge/renovate-enabled-brightgreen" alt="Renovate enabled"><br/><a href="https://gitpod.io/#https://github.com/dword-design/vue-focus-on-mouseup">
-      <img
-        src="https://gitpod.io/button/open-in-gitpod.svg"
-        alt="Open in Gitpod"
-        width="114"
-      >
-    </a><a href="https://www.buymeacoffee.com/dword">
-      <img
-        src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg"
-        alt="Buy Me a Coffee"
-        width="114"
-      >
-    </a><a href="https://paypal.me/SebastianLandwehr">
-      <img
-        src="https://sebastianlandwehr.com/images/paypal.svg"
-        alt="PayPal"
-        width="163"
-      >
-    </a><a href="https://www.patreon.com/dworddesign">
-      <img
-        src="https://sebastianlandwehr.com/images/patreon.svg"
-        alt="Patreon"
-        width="163"
-      >
-    </a>
+<p>
+  <a href="https://npmjs.org/package/vue-focus-on-mouseup">
+    <img
+      src="https://img.shields.io/npm/v/vue-focus-on-mouseup.svg"
+      alt="npm version"
+    >
+  </a><img src="https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue" alt="Linux macOS Windows compatible"><a href="https://github.com/dword-design/vue-focus-on-mouseup/actions">
+    <img
+      src="https://github.com/dword-design/vue-focus-on-mouseup/workflows/build/badge.svg"
+      alt="Build status"
+    >
+  </a><a href="https://codecov.io/gh/dword-design/vue-focus-on-mouseup">
+    <img
+      src="https://codecov.io/gh/dword-design/vue-focus-on-mouseup/branch/master/graph/badge.svg"
+      alt="Coverage status"
+    >
+  </a><a href="https://david-dm.org/dword-design/vue-focus-on-mouseup">
+    <img src="https://img.shields.io/david/dword-design/vue-focus-on-mouseup" alt="Dependency status">
+  </a><img src="https://img.shields.io/badge/renovate-enabled-brightgreen" alt="Renovate enabled"><br/><a href="https://gitpod.io/#https://github.com/dword-design/vue-focus-on-mouseup">
+    <img
+      src="https://gitpod.io/button/open-in-gitpod.svg"
+      alt="Open in Gitpod"
+      width="114"
+    >
+  </a><a href="https://www.buymeacoffee.com/dword">
+    <img
+      src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg"
+      alt="Buy Me a Coffee"
+      width="114"
+    >
+  </a><a href="https://paypal.me/SebastianLandwehr">
+    <img
+      src="https://sebastianlandwehr.com/images/paypal.svg"
+      alt="PayPal"
+      width="163"
+    >
+  </a><a href="https://www.patreon.com/dworddesign">
+    <img
+      src="https://sebastianlandwehr.com/images/patreon.svg"
+      alt="Patreon"
+      width="163"
+    >
+  </a>
 </p>
 <!-- /BADGES -->
 
@@ -68,7 +68,7 @@ $ yarn add vue-focus-on-mouseup
 
 Add to local directives:
 
-```html
+```js
 <script>
 import VueFocusOnMouseup from 'vue-focus-on-mouseup'
 
@@ -101,7 +101,7 @@ Vue.use(VueFocusOnMouseup)
 ## Install via CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src="https://unpkg.com/vue-focus-on-mouseup"></script>
 ```
 <!-- /INSTALL -->
@@ -153,5 +153,5 @@ Thanks a lot for your support! ❤️
 
 ## License
 
-[MIT License](https://opensource.org/licenses/MIT) © [Sebastian Landwehr](https://sebastianlandwehr.com)
+[MIT License](https://opensource.org/license/mit/) © [Sebastian Landwehr](https://sebastianlandwehr.com)
 <!-- /LICENSE -->
